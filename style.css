@@ -1,0 +1,146 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
+
+  
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* background-color: #1f87f6; */
+}
+
+h1 {
+    text-align: center;
+}
+
+fieldset {
+    margin-bottom: 20px;
+}
+
+legend {
+    font-weight: bold;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="number"] {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#resume {
+    margin-top: 20px;
+}
+
+ /* Apply styles to the resume container */
+ #resume {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin-top: 20px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    width: 80%;
+    margin: 0 auto;
+    min-height: 600px;
+    background-color:#15395e;
+    color:white;
+}
+
+/* Apply styles to the personal information section */
+.personal-info {
+    /* text-align: center; */
+    min-height: 130px;
+    padding: 5px;
+}
+.education{
+    min-height: 80px;
+}
+
+.experience{
+    min-height: 80px;;
+}
+
+#head{
+    color: rgb(89, 89, 132);
+}
+.personal-info h2 {
+    text-align: center; 
+    font-size: 28px;
+    color: blue;
+    margin: 10px 0;
+}
+
+.personal-info p {
+    font-size: 16px;
+    margin: 8px 0;
+    /* float: right; */
+}
+
+/* Apply styles to section headings */
+h3 {
+    /* color: blue; */
+    font-size: 22px;
+    margin-top: 20px;
+    color: #333;
+}
+
+/* Apply styles to lists */
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    padding-left: 20px;
+}
+
+li {
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+#edit-resume-btn,#return-home-btn{
+    margin-top: 8px;
+}
+
+.profile-image{
+    position: relative;
+    bottom:31rem;
+    left: 23rem;
+    height: 90px;
+    width: 117px;
+}
+
+.selected {
+    border: 2px solid #db4318;
+     border-width: 8px;
+     border-radius: 8px;
+}
